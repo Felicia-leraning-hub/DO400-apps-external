@@ -1,0 +1,12 @@
+---
+
+- name: demo task
+  hosts: localhost
+  tasks:
+    - name: demo
+      user:
+        name: deb
+        stae: present
+
+...
+
